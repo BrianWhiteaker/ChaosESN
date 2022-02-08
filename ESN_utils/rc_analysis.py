@@ -39,9 +39,11 @@ def distribution(dataP,dataQ,mn,mx, bins=100):
     return (kl,pmfP,pmfQ, bnlocs)
 
 
-def get_mats(fname, k,n): #nxk, nxn
-    #pdb.set_trace()
-    wnet = np.load(fname)
+def get_mats(fname, k,n, matrix=None): #nxk, nxn
+    if(not None):
+        wnet = matrix
+    else:
+        wnet = np.load(fname)
     win = wnet[:,:k]
     wres = wnet[:,k:n+k]
     return wres.reshape(n,n), win.reshape(n,k)
