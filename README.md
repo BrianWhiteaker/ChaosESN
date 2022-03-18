@@ -14,5 +14,5 @@
     Z_no_gamma_.ipynb writes its models and statistics to Dict/Z  and any numpy arrays to Dict/NpArrays.
                       
 ### Model output
-- Plotting and calculating of results is done in any of the ouputs notebooks, e.g. outputsZ.ipynb
+- Plotting and calculating of results is done in the ouputs notebooks, e.g. outputsZ.ipynb
     
