@@ -11,8 +11,7 @@
 - Currently (as cloned) the dicts are written to .json file after the all refinements for a size N are finished.
 - Using Z as an example the .jsons are written to directory Dict for corresponding signal.
   So,<br> 
-    Z_no_gamma_.ipynb writes to Dict/Z <br>
-                      writes numpy arrays to Dict/NpArrays
+    Z_no_gamma_.ipynb writes its models and statistics to Dict/Z  and any numpy arrays to Dict/NpArrays.
                       
 ### Model output
 - Plotting and calculating of results is done in any of the ouputs notebooks, e.g. outputsZ.ipynb
